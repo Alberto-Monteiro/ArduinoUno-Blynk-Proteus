@@ -10,7 +10,13 @@ Esse projeto tem a intenção de ensinar como usar IoT dentro de um ambiente vir
 
 ## Como usar
 
-* Após instalar o PlatformIO IDE você deve abrir esse projeto e fazer o build para gerar os arquivos ".pio\build\uno\firmware.hex" e ".pio\libdeps\uno\Blynk\scripts\blynk-ser.bat".
+* Após instalar o PlatformIO IDE você deve abrir esse projeto e setar o tokem do Blynk-Server do seu dispositivo no arquivo "src\main.cpp"
+
+``` c++
+char auth[] = "";
+```
+
+* Agora deve fazer o build para gerar os arquivos ".pio\build\uno\firmware.hex" e ".pio\libdeps\uno\Blynk\scripts\blynk-ser.bat".
 
 * Depois de fazer o download e instalar o 'VIRTUAL SERIAL PORTS EMULATOR' Você precisa configurá-lo.
 <p align="center">
